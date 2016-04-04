@@ -10,8 +10,8 @@ $ git add .
 $ git status
 $ git commit -m "[what do you done]"
 $ git remote add origin REPO-LINK.git
-$ pull origin master
-$ push origin master
+$ git pull origin master
+$ git push origin master
 
 - collaborate in a proyect
 //fork the REPO at github
