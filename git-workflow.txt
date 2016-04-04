@@ -1,0 +1,35 @@
+- clone a github(cloud) repository
+$ git clone REPO-LINK.git
+
+- create a git(local) repository
+$ git init
+
+- commiting and pushing a change
+$ git status
+$ git add .
+$ git status
+$ git commit -m "[what do you done]"
+$ git remote add origin REPO-LINK.git
+$ pull origin master
+$ push origin master
+
+- collaborate in a proyect
+//fork the REPO at github
+$ mkdir [folder-name]
+$ cd [folder-name]
+$ git init
+$ git remote add origin REPO-LINK.git
+$ git pull origin master
+
+- create branches
+$ git branch [branch-name]
+
+- switch branches
+$ git checkout [branch-name]
+
+- show the branches
+$ git branch
+
+- merging branch to master
+$ git checkout master
+$ git merge [branch-name]

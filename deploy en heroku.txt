@@ -1,0 +1,12 @@
+cd carpeta-proyecto
+git init
+heroku login
+heroku create
+heroku apps:rename nombre-proyecto
+git remote add heroku https://git.heroku.com/murmuring-meadow-25196.git
+git status
+git add .
+git commit 'el commit que hiciste'
+git push heroku master
+heroku rake db:migrate
+heroku open
